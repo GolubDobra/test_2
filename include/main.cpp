@@ -7,8 +7,6 @@ auto find_two_elements_with_sum(Iterator first, Iterator last, T c)
 {
 	bool T_F = false;
 	int arr[10] = {0,1,2,3,4,5,6,7,8,9};
-	//for(int i=0; i<10; i++)
-	//{
 		while(first!=last)
 		{
 			int Summ = arr[first] + arr[last];
@@ -26,7 +24,7 @@ auto find_two_elements_with_sum(Iterator first, Iterator last, T c)
 			}
 		}
 		cout << "not found" <<endl;
-	//}
+	
 	return 0;
 }
 
